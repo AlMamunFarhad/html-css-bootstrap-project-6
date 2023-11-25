@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Global section */
+h1{
+    font-family: 'Jost', sans-serif;
+    font-weight: bold !important;
+}
+h6{
+    color: #918f8f !important;
+}
+/* hero section */
+.hero-section h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.hero-section .hero-content h1 span{
+   background-color: #ffd800;
+}
+.section-3 h1{
+    color: #ffa829;
+    font-size: 3.5rem;
+}
+/* section 5 */
+.section-5 h1{
+    font-size: 2.5rem;
+    color: #ffa829;
+    font-weight: 600;
+}
+.section-5 h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/* section 6 */
+.section-6 h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+/* section 6 */
+.section-7 h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/* section 8 */
+.section-8 {
+  background: url(../images/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.section-8 h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff !important;
+}
+/* section 9 */
+.section-9{
+    padding: 3rem 0;
+}
+.section-9 h5{
+color: #ffa829;
+font-weight: 600;
+font-size: 1.7rem;
+padding-bottom: .4rem;
+}
+.section-9 h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+/* footer */
+footer {
+    background: #000;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffa829;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 1rem .6rem;
+}
+
+/* nav */
+@media screen and (max-width: 768px) {
+    .nav img{
+        margin-bottom: 1.5rem !important;
+    }
+}
+/* Hero section */
+@media screen and (max-width: 992px){
+    .hero-section h1{
+        font-size: 1.5rem;
+    }
+    .hero-section .hero-btn h3{
+        font-size: 1.2rem;
+    }
+    .hero-section .hero-btn a{
+        padding: .5rem 2rem !important;
+    }
+}
+/* section 3 */
+@media screen and (max-width: 992px){
+    .section-3 h1{
+        font-size: 2.5rem !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-3 h1{
+        padding-top: 3rem;
+    }
+}  
+/* section 5 */
+@media screen and (max-width: 992px){
+    .section-5 h1{
+        font-size: 2rem !important;
+    }
+    .section-5 h6{
+        padding-top: 1rem;
+    }
+}
+/* section 7 */
+@media screen and (max-width: 992px){
+    .section-7 h1{
+        font-size: 2rem !important;
+    }
+}
+/* section 8 */
+@media screen and (max-width: 992px){
+    .section-8 h6{
+        padding-bottom: 1rem !important;
+    }
+}
